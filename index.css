@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  background-color: lightgray;
+  padding: 20px;
+}
+
+h1 {
+  text-Align: left;
+  padding: 10px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+
+}
+
+.companyName {
+  margin-left: 20px;
+  margin-right: 250px;
+  font-weight: bold;
+
+
+}
+
+
+
+.nav-links {
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+
+}
+
+#all-links {
+  margin-right: 200px;
+}
+
+#nav-home-link {
+  color: rgb(19, 19, 198);
+}
+
+
+
+
+.main {
+  background-color: white;
+  width: 100%;
+  height: 700px;
+  margin-top: 10px;
+}
+
+input {
+  background-color: lightgray;
+  width: 60%;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  height: 40px;
+  border-radius: 5px;
+  border: lightgrey;
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+.nav-main {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+
+.nav-main-sideBar {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.side-bar {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 130%;
+  height: 110px;
+  line-height: 110px;
+  margin-left: 20px;
+  justify-content: center;
+
+}
+
+button {
+  background-color: rgb(6, 6, 123);
+  color: white;
+  border-color: white;
+  width: 100px;
+  height: 30px;
+  line-height: 20px;
+  border-radius: 5px;
+  margin: 5px;
+
+}
+
+
+
+p {
+  font-size: 10px;
+}
+
+.nav-button {
+
+  margin-left: 200px;
+}
+
+.CartStyle {
+  border: 3px solid lightgrey;
+  width: 20%;
+
+}
+
+.inline-p-tags {
+  display: inline;
+}
