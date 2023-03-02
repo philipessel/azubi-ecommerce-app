@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -15,11 +21,15 @@ code {
 .App {
   background-color: lightgray;
   padding: 20px;
+
 }
 
 h1 {
   text-Align: left;
   padding: 10px;
+  margin-left: 14px;
+
+
 }
 
 .nav {
@@ -34,10 +44,18 @@ h1 {
 
 .companyName {
   margin-left: 20px;
-  margin-right: 250px;
+  margin-right: 140px;
   font-weight: bold;
 
+}
 
+.azubi-frontend {
+  display: inline-block;
+  margin-left: 2px;
+}
+
+#Front-end-blue {
+  color: rgb(19, 19, 198);
 }
 
 
@@ -52,21 +70,23 @@ h1 {
 
 }
 
-#all-links {
-  margin-right: 200px;
+.nav-links:hover {
+  color: gray;
+
 }
 
-#nav-home-link {
+#all-links {
+  margin-right: 140px;
+}
+
+#home-link {
   color: rgb(19, 19, 198);
 }
-
-
 
 
 .main {
   background-color: white;
   width: 100%;
-  height: 700px;
   margin-top: 10px;
 }
 
@@ -85,26 +105,7 @@ input {
 .nav-main {
   display: flex;
   flex-direction: column;
-  width: 80%;
-}
-
-
-.nav-main-sideBar {
-  display: flex;
-  flex-direction: row;
-
-}
-
-.side-bar {
-  display: flex;
-  flex-direction: row;
-  background-color: white;
-  width: 130%;
-  height: 110px;
-  line-height: 110px;
-  margin-left: 20px;
-  justify-content: center;
-
+  width: 70%;
 }
 
 button {
@@ -115,14 +116,19 @@ button {
   height: 30px;
   line-height: 20px;
   border-radius: 5px;
-  margin: 5px;
+  display: inline;
+  margin-right: 20px;
+}
+
+.Cartbutton {
+  margin-top: 5px;
+  margin-bottom: 5px;
 
 }
 
-
-
 p {
   font-size: 10px;
+
 }
 
 .nav-button {
@@ -132,10 +138,63 @@ p {
 
 .CartStyle {
   border: 3px solid lightgrey;
-  width: 20%;
+  width: 100%;
+  border-radius: 5px;
 
 }
 
-.inline-p-tags {
-  display: inline;
+
+
+.Cartdetails {
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.all-cart-on-main {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin: 20px;
+  gap: 20px;
+
+}
+
+p {
+  margin-top: 2px;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+img {
+  margin: 4px;
+  width: 97%;
+}
+
+.Inline-button-p-tag {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.side-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: white;
+  width: 25%;
+  margin-left: 10px;
+  height: 150px;
+  line-height: 150px;
+}
+
+.nav-main-sideBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.side-button-flex {
+  display: flex;
+  flex-direction: column;
+
 }

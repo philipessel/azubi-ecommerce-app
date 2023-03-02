@@ -1,25 +1,25 @@
 import React from 'react'
 import Button from './Button'
 
-export default function Cart() {
+
+export default function Cart(props) {
 
 
     return (
         <div className="CartStyle">
-            <img ></img>
-            <h2>shirt</h2>
-            <p> Lorem timpanicum ibanumbra gelum </p>
+            <img src={props.img} />
 
+            <div className="Cartdetails">
+                <h3>{props.product}</h3>
+                <p> {props.productDescription} </p>
 
-
-            <div>
-                <Button className={"CartButtom"} name="Place Order" />
-                <p className="inline-p-tags"> $300</p>
+                <div>
+                    <div className="Inline-button-p-tag "> <Button className="Cartbutton" name="Place Order" /></div>
+                    <div className="Inline-button-p-tag "> <p className="inline-p-tags" > {props.price}</p></div>
+                </div>
             </div>
-
-
-
 
         </div>
     )
 }
+

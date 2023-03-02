@@ -6,6 +6,7 @@ import SideBar from './components/SideBar';
 
 
 
+
 function App() {
   return (
     <div className="App">
@@ -18,8 +19,7 @@ function App() {
           <Nav />
           <Main />
         </div>
-        <div><SideBar /></div>
-
+        <SideBar />
       </div>
 
     </div>

@@ -5,13 +5,12 @@ export default function Nav() {
     return (
         <div className="nav">
             <div className="companyName">
-
-                <div> Azubi FrontEnd</div>
-
+                <div className="azubi-frontend">Azubi </div>
+                <div className="azubi-frontend" id="Front-end-blue">FrontEnd</div>
             </div>
 
             <div id="all-links">
-                <a href="#" className="nav-links" id="nav-home-link"> Home </a>
+                <a href="#" className="nav-links" id="home-link"> Home </a>
                 <a href="#" className="nav-links"> About </a>
                 <a href="#" className="nav-links"> Contact </a>
                 <a href="#" className="nav-links"> Cart </a>

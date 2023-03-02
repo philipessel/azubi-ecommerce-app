@@ -6,14 +6,16 @@ export default function SideBar() {
 
         <div className="side-bar">
 
-            <div>
+            <div className="side-button-flex">
                 <Button name="Login" />
+                <p>Primary Button</p>
             </div>
-
-            <div>
+            <div className="side-button-flex">
                 <Button name="Login" />
+                <p>Hover Button</p>
             </div>
 
         </div>
+
     )
 }
